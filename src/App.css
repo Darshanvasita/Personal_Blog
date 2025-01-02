@@ -1,0 +1,84 @@
+
+/* #FAF4FF
+#F3C623
+#844685
+#10375C */
+
+body{
+  color: #FAF4FF;
+  color: #F3c623;
+  color: #844685;
+  color: #320948;
+  color: #10375C;
+  color: #ef5b2a;
+}
+.nav-item{
+  color: #10375C !important;
+  font-size: 17px;
+  font-style: unset;
+}
+.login{
+  margin-left: 25px !important;
+}
+.hover-login:hover{
+  color: aliceblue !important;
+}
+body{
+  background-color:#FAF4FF !important ;
+  color: #10375C !important;
+}
+.Buzz-title {
+  color: #ef5b2a !important;
+  font-size: 50px !important;
+  font-weight: bolder;
+  text-shadow: 2px 2px #320948;
+}
+.name-title{
+  color: #000105;
+  font-size: 35px;
+  font-weight: bold;
+  display: none;  
+  text-shadow: 5px 3px #320948 !;
+
+}
+.main-img:hover{
+  cursor: pointer;
+  opacity: 50%;
+.name-title{
+  display: block;
+  
+  
+}
+}
+.post {
+  color: #844685 !important;
+  font-size: 40px !important;
+  font-weight: bold;
+  text-shadow: 2px 2px #060009;
+}
+
+.read{
+  border: none;
+}
+
+/* // Footer */
+footer {
+  background-color: #222;
+  color: #aaa;
+  padding: 20px 0;
+}
+footer a {
+  color: #aaa;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #fff;
+}
+.para_desc::first-letter {
+  font-size: 55px;
+  color: #8A2BE2;
+}
+.para_desc{
+  font-size: 20px;
+  /* line-height:; */
+}
