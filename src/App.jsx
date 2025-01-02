@@ -28,7 +28,6 @@ function App() {
            <Route path="/About" element={<About />} />
            <Route path="/All/:id" element={<All/>} />
            <Route path="/Blogs" element={<Blog/>} />
-           {/* <Route path="/Create" element={<Create/>} /> */}
            <Route path="*" element={<Error/>} />
            <Route path="/Table" element={<PrivateRoute>
               <Table />
@@ -36,8 +35,8 @@ function App() {
            <Route path="/Update/:BlogId" element={<Update/>} />
            <Route path="/Read/:BlogId" element={<Read/>} />
            <Route path="/Sign" element={<Signin/>} />
-           <Route
-          path="/Create"
+           
+        <Route  path="/Create"
           element={
             <PrivateRoute>
               <Create />
