@@ -7,18 +7,17 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 
-
 const firebaseConfig = {
-  apiKey: "AIzaSyAu7z_DMe0H1cIu8QGuoY1QsIpBTEHJFHw",
-  authDomain: "blogtastic-blog.firebaseapp.com",
-  databaseURL: "https://blogtastic-blog-default-rtdb.europe-west1.firebasedatabase.app",
-  projectId: "blogtastic-blog",
-  storageBucket: "blogtastic-blog.firebasestorage.app",
-  messagingSenderId: "541237864187",
-  appId: "1:541237864187:web:d108178e29ca4e6eddf25e"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
-export const db = getDatabase(app)
-export const auth = getAuth(app)
+export const db = getDatabase(app);
+export const auth = getAuth(app);
